@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -77,11 +77,11 @@
       return false;
     }
     function findWord() {
-      var findW = $('#find').val();
+      var find = $('#find').val();
 	  var length = listOfWords.length;
 	  var foundWord = 0;
 	  for (var i = 0; i < length; ++i) {
-		  if (findW == listOfWords[i]) {
+		  if (find == listOfWords[i]) {
 		  	foundWord = 1;
 		  	i = length;
 		  }      
